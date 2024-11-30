@@ -1,5 +1,5 @@
-const reducer = (state = 0, action) => {
-  if (action.type === "deeposit") {
+const reducer = (state=0, action) => {
+  if (action.type === "deposit") {
     return state + action.payload;
   } else {
     if (action.type === "withdraw") {

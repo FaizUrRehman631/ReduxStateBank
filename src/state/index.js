@@ -1,3 +1,3 @@
-export * as actionCreatore from "./action-creators/index"
+export * as actionCreator from "./action-creators/index"
 
 
